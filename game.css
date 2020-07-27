@@ -1,0 +1,59 @@
+:root{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #0e4709;
+}                           
+
+a{text-decoration: none}
+
+#game{    
+    border: 5px double #da1e1e;
+    border-radius: 15px;
+}
+#title{
+    height: 4.5rem;
+}
+
+#title > p{
+    margin: 0;
+}
+
+#controller > .cards{
+    width: 5rem;
+    
+    padding: 5rem;
+    margin-top: 0;
+    margin: 2.5rem;
+
+    display: inline-block;
+
+    border: 2px solid #da1e1e;
+    border-radius: 5px;
+    box-shadow: 10px 10px 45px black;
+    transition: 1s;
+} #controller > .cards:hover {
+    background-color: #378f31;
+    box-shadow: 10px 10px 45px #63c55a;
+}
+
+#controller > #stop{
+    padding: 3px 15px 3px 15px;
+    border: 1px solid #0c5806;
+    border-radius: 5px;
+    background-color: inherit;
+    color: white;
+    transition: 0.5s;
+} #controller > #stop:hover{
+    border: 0;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+
+    padding: 3px 45px 3px 45px;
+
+
+}
+
+#game{
+    text-align: center;
+}
